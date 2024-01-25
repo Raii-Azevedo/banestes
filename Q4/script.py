@@ -10,7 +10,7 @@ dados['DT_EMISSAO'] = pd.to_datetime(dados['DT_EMISSAO'])
 
 # Criando um gráfico por "INSTITUICAO_FINANCEIRA"
 plt.figure(figsize=(12, 6))
-sns.barplot(data=dados, x='CNPJ_IF', y='VL_PARC_CREDITO', estimator=sum)
+sns.barplot(data=dados, x='CD_ESTADO', y='VL_PARC_CREDITO', estimator=sum)
 plt.title('Valor de "VL_PARC_CREDITO" por "INSTITUICAO_FINANCEIRA"')
 plt.xlabel('Instituição Financeira')
 plt.ylabel('Valor Total de Parcelas de Crédito')
