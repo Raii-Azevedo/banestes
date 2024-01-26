@@ -32,7 +32,9 @@ html_content = f"""
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Gráficos de Dados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <h1>Gráfico por Instituição Financeira</h1>
